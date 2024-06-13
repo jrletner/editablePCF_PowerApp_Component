@@ -1,0 +1,23 @@
+.SampleNamespace\.EditablePCF {
+  font-size: 1.5em;
+}
+.SampleNamespace\.EditablePCF button {
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+.SampleNamespace\.EditablePCF input {
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 20px;
+  width: 300px;
+  color: white;
+  border-radius: 15px;
+  background-color: rgb(62, 60, 60);
+  filter: drop-shadow(0 0 0.75rem rgb(188, 104, 121));
+}
+
+.SampleNamespace\.EditablePCF button:hover {
+  background-color: rgb(62, 60, 60);
+  color: white;
+}

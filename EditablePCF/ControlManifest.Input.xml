@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="SampleNamespace" constructor="EditablePCF" version="1.0.0" display-name-key="EditablePCF" description-key="Edits projects name" control-type="standard" >
+   
+    <external-service-usage enabled="false">
+     
+    </external-service-usage>
+   
+    <property name="Name" display-name-key="Name" description-key="A name" of-type="SingleLine.Text" usage="bound" required="true" />
+   
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/EditablePCF.css" order="1"/>
+      
+    </resources>
+    
+  </control>
+</manifest>
